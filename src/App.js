@@ -1,16 +1,17 @@
-import React, { Component } from "react";
+import React from 'react';
 import Clock from "./components/Clock";
+import CountDown from './components/CountDown';
 import Form from "./components/Form";
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Clock locale="bn-BD" />
-        <Form />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <main>
+      <Clock locale="bn-BD" />
+      <Form />
+      <CountDown />
+    </main>
+  );
+};
 
 export default App;
+
