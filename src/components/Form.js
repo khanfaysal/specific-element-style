@@ -28,7 +28,7 @@ const Form = () => {
   return (
     <section className="form">
       <h1>React with yup hook form</h1>
-      <h2>sign up validate form YUP</h2>
+      <h2>sign up validate form yup</h2>
       <div className="inputs">
         <form onSubmit={handleSubmit(submitForm)}>
           <input
