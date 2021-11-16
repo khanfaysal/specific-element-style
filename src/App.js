@@ -1,16 +1,12 @@
-import React, { Component } from "react";
-import Clock from "./components/Clock";
-import Form from "./components/Form";
+import React from 'react';
+import Clock from './components/Clock';
 
-class App extends Component {
-  render() {
-    return (
-      <div>
-        <Clock locale="bn-BD" />
-        <Form />
-      </div>
-    );
-  }
-}
+const App = () => {
+  return (
+    <div>
+      <Clock locale="bn-BD" />
+    </div>
+  );
+};
 
 export default App;
